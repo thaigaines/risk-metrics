@@ -1,0 +1,13 @@
+name: market_analysis
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.13
+  - jupyterlab
+  - matplotlib
+  - pandas
+  - seaborn
+  - pip
+  - pip:
+    - yfinance
